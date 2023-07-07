@@ -1,0 +1,29 @@
+select * from application_master;
+select * from application_configuration;
+select * from elt_batch_master;
+select * from environment_configuration;
+select * from package_master;
+select * from file_specification_master;
+select * from framework_files_master;
+select * from inbound_file_detail;
+select * from snow_sql_files_master;
+select * from package_activity_detail;
+select * from error_log_detail;
+select * from package_instance;
+
+
+
+drop table package_instance;
+drop table error_log_detail;
+drop table package_activity_detail;
+drop table snow_sql_files_master;
+drop table inbound_file_detail;
+drop table framework_files_master;
+drop table file_specification_master;
+drop table package_master;
+drop table environment_configuration;
+drop table elt_batch_master;
+drop table application_configuration;
+drop table application_master;
+
+https://cugstct-bm52069.snowflakecomputing.com/
